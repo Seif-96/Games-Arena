@@ -1,0 +1,129 @@
+/* max width */
+@media (max-width: 684px) {
+  .hero-section .h-style {
+    font-size: 2rem;
+  }
+  /* right side */
+  .hero-section .right-side .image {
+    height: 17.5rem;
+  }
+
+  .hero-section .p-style {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 992px) {
+  header .buttons-perant,
+  .ul-style {
+    border-top: 0.125rem solid #1e2939;
+  }
+  .hero-section .h-style {
+    font-size: 2rem;
+    line-height: 2.8125rem;
+  }
+}
+/* min-width */
+@media (min-width: 650px) {
+  /* OUR GAMES */
+  .our-games .the-head .h-style {
+    font-size: 3rem;
+  }
+  .our-games .p-btn-style2 {
+    top: 95%;
+    width: fit-content;
+    left: 50%;
+  }
+  .our-games .carousel-controls {
+    transform: translate(-110%, -40%);
+  }
+  /* what-we-do */
+  .what-we-do .p-cards .cards {
+    height: 17.5rem;
+  }
+}
+@media (min-width: 768px) {
+  /* OUR GAMES */
+  .our-games .carousel-inner .fcard .image img {
+    height: 17.5rem;
+  }
+  /* what-we-do */
+  .what-we-do .the-head .h-style,
+  .p2-style {
+    font-size: 2.25rem;
+  }
+  .what-we-do .p-cards .cards .h3-style {
+    font-size: 1.25rem;
+  }
+  .what-we-do .p-cards .cards {
+    height: 23.75rem;
+  }
+  .what-we-do .p-cards .cards:hover .oc1 {
+    left: 1rem;
+    top: 1rem;
+  }
+  .what-we-do .p-cards .cards:hover .oc2 {
+    right: 1rem;
+    bottom: 1rem;
+  }
+  /* owr-team */
+  .owr-team .the-head .h-style {
+    font-size: 2.25rem;
+  }
+  .what-we-do .the-head .p3-style {
+    font-size: 1.25rem;
+  }
+  .owr-team .pcards .text .rotate {
+    font-size: 1.125rem;
+  }
+  /* contect-us */
+  .contect-us .the-head .h-style {
+    font-size: 2.25rem;
+  }
+  .contect-us .the-head .p3-style {
+    font-size: 1.25rem;
+  }
+  .contect-us .cards h3 {
+    font-size: 1.25rem;
+  }
+  /* footer */
+  footer .top h3 {
+    font-size: 1.25rem;
+  }
+  footer .top .p-style {
+    font-size: 1rem;
+  }
+  footer .top ul li {
+    font-size: 1rem;
+    line-height: 2.2rem;
+  }
+}
+@media (min-width: 1024px) {
+  /* OUR GAMES */
+  .our-games .carousel-inner .fcard .image img {
+    height: 15.625rem;
+  }
+  /* what-we-do */
+  .what-we-do .the-head .h-style,
+  .p2-style {
+    font-size: 3rem;
+  }
+  /* cards */
+  .what-we-do .p-cards .cards {
+    height: 15.625rem;
+  }
+
+  /* owr-team */
+  .owr-team .the-head .h-style {
+    font-size: 3rem;
+  }
+  .owr-team .pcards .text .h3-style {
+    font-size: 1.25rem;
+  }
+  .owr-team .pcards .text .rotate {
+    font-size: 1.25rem;
+  }
+  /* contect-us */
+  .contect-us .the-head .h-style {
+    font-size: 3rem;
+  }
+}
