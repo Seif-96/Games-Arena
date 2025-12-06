@@ -6,12 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Games website">
   <link rel="icon" href="images/favicon.png" type="favicon">
+  <link rel="stylesheet" href="CSS/aos.css">
   <link rel="stylesheet" href="CSS/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/all.min.css">
   <link rel="stylesheet" href="CSS/style.css">
   <link rel="stylesheet" href="CSS/media.css">
   <title>Games Arena</title>
 </head>
+
 
 <body class="position-relative" data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="70">
   <!-- COMPONENT: Header -->
@@ -65,7 +67,7 @@
     <section class="hero-section" id="heroSection">
       <div class="container text-light col-10 col-lg-12">
         <div class="d-lg-flex justify-content-center align-items-center">
-          <div class="left-side col-lg-6">
+          <div class="left-side col-lg-6" data-aos="fade-right" data-aos-duration="1000">
             <h1 class="h-style fw-bold text-center lh- mb-4 text-lg-start">THE ULTIMATE
               <span class="text-style d-block">GAMING</span>
               EXPERIENCE
@@ -83,7 +85,7 @@
                 Watch Tournaments</button>
             </div>
           </div>
-          <div class="right-side col-lg-6 mt-5 m-lg-5 position-relative">
+          <div class="right-side col-lg-6 mt-5 m-lg-5 position-relative" data-aos="fade-left" data-aos-duration="1000">
             <div class="image rounded-4"><img loading="eager" decoding="async" class="rounded-4  h-100"
                 src="images/hero-img.png" alt="hero-img">
             </div>
@@ -100,7 +102,7 @@
       </div>
     </section>
     <!-- OUR GAMES -->
-    <section class="our-games" id="ourGames">
+    <section class="our-games" id="ourGames" data-aos="zoom-in-up" data-aos-duration="1500">
       <div class="container-fluid">
         <!-- text head -->
         <div class="the-head mb-5 mb-md-6 text-center">
@@ -335,7 +337,7 @@
       </div>
     </section>
     <!-- WHAT WE DO -->
-    <section class="what-we-do" id="whatweDo">
+    <section class="what-we-do" id="whatweDo" data-aos="zoom-in-up" data-aos-duration="1500">
       <div class="container text-light col-10 col-lg-12">
         <!-- text head -->
         <div class="the-head mb-5 mb-md-6 text-center">
@@ -453,7 +455,7 @@
       </div>
     </section>
     <!-- Animation -->
-    <section class="animation">
+    <section class="animation" data-aos="zoom-in-up" data-aos-duration="1500">
       <div class="container animation-style position-relative col-10 col-lg-12">
         <div class="perant">
           <div class="items-1 d-flex column-gap-3 mt-5">
@@ -512,7 +514,7 @@
       </div>
     </section>
     <!-- OUR TEAM -->
-    <section class="owr-team" id="ourTeam">
+    <section class="owr-team" id="ourTeam" data-aos="zoom-in-up" data-aos-duration="1500">
       <div class="container-fluid px-5 text-light">
         <!-- text head -->
         <div class="the-head mb-5 mb-md-6 text-center">
@@ -630,7 +632,7 @@
       </div>
     </section>
     <!-- CONTACT US -->
-    <section class="contect-us" id="contactUs">
+    <section class="contect-us" id="contactUs" data-aos="zoom-in-up" data-aos-duration="1500">
       <div class="container-fluid px-5 text-light">
         <!-- text head -->
         <div class="the-head mb-5 mb-md-6 text-center">
@@ -813,6 +815,10 @@
       </div>
     </div>
   </footer>
+  <script src="JS/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="JS/bootstrap.bundle.min.js"></script>
 </body>
 
